@@ -35,7 +35,7 @@ import CardList from "./components/CardList";
             time:"Вчора 13:00",
             currency:"грн",
             price:"200",
-            order: true,
+            order: false,
           }
         ]
       }

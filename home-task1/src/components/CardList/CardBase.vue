@@ -4,7 +4,7 @@
       <div class="Card-img">
         <img :src="imgSrc">
       </div>
-      <div class="Card-order">
+      <div class="Card-order" v-show="order">
         <img src="https://cdn3.iconfinder.com/data/icons/e-commerce-vol-interactions/80/package-order-ready-checkmark-512.png">
       </div>
       <div class="Card-title">
