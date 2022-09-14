@@ -1,6 +1,7 @@
 <template>
     <div class="Card-list">
-        <card-base v-for="item in iconsList"
+
+        <card-base v-for="item in cardList"
         :key="item.id"
         :imgSrc="item.imgSrc"
         :title="item.title"
@@ -10,6 +11,7 @@
         :currency="item.currency"
         :order="item.order"
         />
+
     </div>
 </template>
 
@@ -25,7 +27,7 @@
         },
 
         props: {
-            iconsList: {
+            cardList: {
                 type: Array,
                 default: () => [],
             },
@@ -38,4 +40,4 @@
     display: flex;
     
 }
-</style>
+</style>C

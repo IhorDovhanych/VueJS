@@ -62,6 +62,27 @@
   }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="css" scoped>
+.Card-container{
+  width: 430px;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  text-align: center;
+  margin: 10px;
+}
+.Card-img{
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  border-style: solid;
+  border: 0px;
+}
+.Card-img img{
+  min-height: 400px;
+  min-width: 200px;
+  text-align: center;
+}
+.Card-order img{
+  width: 30px;
+}
 </style>
