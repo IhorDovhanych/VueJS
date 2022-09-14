@@ -76,6 +76,7 @@
   overflow: hidden;
   border-style: solid;
   border: 0px;
+  text-align: center;
 }
 .Card-img img{
   min-height: 400px;
