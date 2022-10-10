@@ -1,5 +1,5 @@
 <template>
-    <div class="navigate">
+    <div class="HeaderElements">
         <div class="logo">
             <img :src="logoImg">
         </div>
