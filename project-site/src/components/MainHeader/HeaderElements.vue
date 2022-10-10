@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="navigate">
         <div class="logo">
             <img :src="logoImg">
         </div>
@@ -13,6 +13,7 @@
 <script>
     export default {
         name: "HeaderElements",
+
         props: {
             logoImg: {
                 type: String,
@@ -22,6 +23,6 @@
     }
 </script>
 
-<style lang="css" scoped>
-
+<style lang="scss" scoped>
+@import "../../assets/style/index.scss";
 </style>

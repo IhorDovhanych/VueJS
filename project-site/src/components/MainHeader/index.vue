@@ -1,10 +1,10 @@
 <template>
     <div class="MainHeader">
-        <header-elements v-for="item in iconsTable"
+        <header-elements v-for="item in headerElement"
         :key="item.id"
         :logo-img="item.logoImg"
         />
-
+    
     </div>
 </template>
 
@@ -19,7 +19,7 @@
         },
 
         props: {
-            iconsTable: {
+            headerElement: {
                 type: Array,
                 default: () => [],
             }

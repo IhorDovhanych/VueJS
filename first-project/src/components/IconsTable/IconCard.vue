@@ -1,17 +1,20 @@
 <template>
   <div>
+
     <div class="Icon-container">
       <div class="Icon-switch">
         <button @click="OnClick">+</button>
       </div>
+
       <div class="Icon-img">
         <img :src="imgSrc">
       </div>
+
       <div class="Icon-name">
         {{ name }}
       </div>
-
     </div>
+    
   </div>
 </template>
 
