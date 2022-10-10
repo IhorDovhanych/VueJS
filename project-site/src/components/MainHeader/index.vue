@@ -1,6 +1,6 @@
 <template>
     <div class="MainHeader">
-        <header-elements v-for="item in headerElement"
+        <header-elements v-for="item in headerElementList"
         :key="item.id"
         :logo-img="item.logoImg"
         />
@@ -19,7 +19,7 @@
         },
 
         props: {
-            headerElement: {
+            headerElementList: {
                 type: Array,
                 default: () => [],
             }
