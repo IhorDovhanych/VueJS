@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main-header :main-header="listData"/>
+    <main-header :headerElementList="listData"/>
   </div>
 </template>
 
